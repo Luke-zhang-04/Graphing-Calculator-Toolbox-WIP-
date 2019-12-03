@@ -163,13 +163,13 @@ def draw_axes(xMin, xMax, yMin, xIncrement, yIncrement):
 
 ################ NEW FUNCTION ################
 #use arguments to make a table of values
-def makeTableofValues (numPoints):
+def makeTableofValues (numPoints, eq):
     
     global xValues
     global yValues
     global numbPoints
     numbPoints = numPoints
-    equation = str(input("Enter equation: y="))
+    equation = eq
 
     #uses the get_values function to get the a,b,c values
     values = get_values(equation)
