@@ -214,5 +214,5 @@ def plotPoints ():
   for t in range(numbPoints-1):
       pointsPlot.append(screen.create_line (xPlotValue[t], yPlotValue[t], xPlotValue[t+1], yPlotValue[t+1], fill = "red", smooth= "true", width = 3))
 
-  #xx = print (xPlotValue, yPlotValue)
-  return (pointsPlot)
+  screen.mainloop()
+
